@@ -19,7 +19,9 @@
 </template>
 
 <script>
-import {API} from '@/common/api';
+import {
+  API
+} from '@/common/api';
 import WeatherSummary from '@/components/WeatherSummary';
 import WeatherData from '@/components/WeatherData';
 import CubeSpinner from '@/components/CubeSpinner';
@@ -90,6 +92,7 @@ export default {
       });
   }
 }
+
 
 </script>
 
