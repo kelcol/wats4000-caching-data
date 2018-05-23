@@ -36,35 +36,35 @@ the [Practical JavaScript 2: Building Applications](https://shawnr.gitbooks.io/p
 ## Basic Requirements
 In order to successfully complete this project, we must fulfill the following requirements.
 
-* Sign up to [OpenWeatherMap.org](https://openweathermap.org/) and generate an API Key.
-* Paste your API Key (which will be used as the `APPID` parameter) into the appropriate location in the `/src/common/api.js` file.
+- [X] Sign up to [OpenWeatherMap.org](https://openweathermap.org/) and generate an API Key.
+- [X] Paste your API Key (which will be used as the `APPID` parameter) into the appropriate location in the `/src/common/api.js` file.
 
 **`main.js`**
-* Add the base configuration for `vue-ls`.
+- [X] Add the base configuration for `vue-ls`.
 
 **`CitySearch.vue`**
-* Add the `FavoriteCities` component as a child to the `CitySearch` component (using proper imports, etc.).
-* Add logic to the `created` function to initialize `this.favorites` to the value of the `favoriteCities` object in `localStorage`.
-* Add logic to the `saveCity` function to update the `favoriteCities` cache in `localStorage`.
-* Add logic to properly cache the API request in the `getCities` method (with proper label and expiry time).
+- [X] Add the `FavoriteCities` component as a child to the `CitySearch` component (using proper imports, etc.).
+- [X] Add logic to the `created` function to initialize `this.favorites` to the value of the `favoriteCities` object in `localStorage`.
+- [X] Add logic to the `saveCity` function to update the `favoriteCities` cache in `localStorage`.
+- [X] Add logic to properly cache the API request in the `getCities` method (with proper label and expiry time).
 
 **`FavoriteCities.vue`**
-* Add logic in the `removeCity` method to remove the city from the `this.favoriteCities` array.
-* Add logic to the `removeCity` method to remove the city from `localStorage`.
+- [X] Add logic in the `removeCity` method to remove the city from the `this.favoriteCities` array.
+- [X] Add logic to the `removeCity` method to remove the city from `localStorage`.
 
 **`CurrentWeather.vue`**
-* Add logic to properly cache the API request in the `created` function (with proper label and expiry time).
+- [X] Add logic to properly cache the API request in the `created` function (with proper label and expiry time).
 
 **`Forecast.vue`**
-* Add logic to properly cache the API request in the `created` function (with proper label and expiry time).
+- [X] Add logic to properly cache the API request in the `created` function (with proper label and expiry time).
 
 ## Stretch Goals
 If we crave more challenge, we can attempt these additional goals.
 
-* Add more preferences to the system, such as the ability to load a single "favorite" city when the page is first loaded (with no clicks or search required).
-* Add the ability for users to specify their own label for the favorite cities (e.g. "home", "Aunt Barb's House", etc.).
-* Add a query to another API service, such as flickr, to augment this information. Build the proper caching to make efficient use of that query, too.
-* Add animated transitions to the information in this project.
+- [ ] Add more preferences to the system, such as the ability to load a single "favorite" city when the page is first loaded (with no clicks or search required).
+- [ ] Add the ability for users to specify their own label for the favorite cities (e.g. "home", "Aunt Barb's House", etc.).
+- [ ] Add a query to another API service, such as flickr, to augment this information. Build the proper caching to make efficient use of that query, too.
+- [ ] Add animated transitions to the information in this project.
 
 
 ## Build Setup
